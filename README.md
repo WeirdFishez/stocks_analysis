@@ -1,4 +1,4 @@
-# stocks_analysis
+# Refactoring VBA Stock Analysis Project
 
 ## **Goal**
 
