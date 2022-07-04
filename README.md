@@ -1,10 +1,12 @@
 # stocks_analysis
 
 Goal
-	For this assignment I was tasked with refactoring a VBA script with the goal of improving it's run time by simplifying the code. This task was a response to the customers intent to expand the amount of data processed by the macro. The original VBA script needed to re-loop through all of the data multiple time in order to process the output, which would have slowed down the runtime of the code as the amount of data increased.
+
+For this assignment I was tasked with refactoring a VBA script with the goal of improving it's run time by simplifying the code. This task was a response to the customers intent to expand the amount of data processed by the macro. The original VBA script needed to re-loop through all of the data multiple time in order to process the output, which would have slowed down the runtime of the code as the amount of data increased.
 
 Solution
-	The main solution for this refactorization was utilizing loop functions execute multiple functions on the first run-through of the stock data, rather than the original code which re-looped the entire dataset before reprocessing the macro for each output.
+
+The main solution for this refactorization was utilizing loop functions execute multiple functions on the first run-through of the stock data, rather than the original code which re-looped the entire dataset before reprocessing the macro for each output.
 
 Results
 	In the end, our refactored code saw a significant increase in the scripts runtime (see attached runTimeTest.png). The refactored code was able to process the 2017 data .1796875 seconds faster while 2018 data saw a .5375976 second improvement.
@@ -19,8 +21,8 @@ Summary
 		
 Pros and Cons of Our Refactored Code
 		○ Advantages
-			As previously mentioned, speed and the ability to process larger and larger datasets was the main driver for refactoring. When testing the refactored code, we saw a significant improvement in the run times. The 2017 data saw a 24% increase in runtime speed while the 2018 data saw a whopping 74% increase.\n
+			As previously mentioned, speed and the ability to process larger and larger datasets was the main driver for refactoring. When testing the refactored code, we saw a significant improvement in the run times. The 2017 data saw a 24% increase in runtime speed while the 2018 data saw a whopping 74% increase.
 		○ Disadvantages
-			The major disadvantage to our refactored code is that it is still limited to the pre-defined number of stocks tickers added to the array. If the user eventually wanted to broaden their analyses, they would need to individually add the tickers in the VBA coding.\n
+			The major disadvantage to our refactored code is that it is still limited to the pre-defined number of stocks tickers added to the array. If the user eventually wanted to broaden their analyses, they would need to individually add the tickers in the VBA coding.
 			
 A second disadvantage in our code is that it uses a referenced based IF Functions to determine if the row it's reading is the first stocked traded in the year vs the last. If the data was scrambled out of order, this IF Function would fail to pull the correct stock prices for our Return calculation.
