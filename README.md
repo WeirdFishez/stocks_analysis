@@ -1,10 +1,10 @@
 # stocks_analysis
 
-**Goal**
+##**Goal**
 
 For this assignment I was tasked with refactoring a VBA script with the goal of improving it's run time by simplifying the code. This task was a response to the customers intent to expand the amount of data processed by the macro. The original VBA script needed to re-loop through all of the data multiple time in order to process the output, which would have slowed down the runtime of the code as the amount of data increased.
 
-**Solution**
+##**Solution**
 
 The main solution for this refactorization was utilizing loop functions execute multiple functions on the first run-through of the stock data, rather than the original code which re-looped the entire dataset before reprocessing the macro for each output.
 
