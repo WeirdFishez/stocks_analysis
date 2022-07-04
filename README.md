@@ -12,8 +12,10 @@ Results
 
 In the end, our refactored code saw a significant increase in the scripts runtime (see attached runTimeTest.png). The refactored code was able to process the 2017 data .1796875 seconds faster while 2018 data saw a .5375976 second improvement.
 
+
 Summary
-Pros and Cons of Refactoring Code in General\n
+
+Pros and Cons of Refactoring Code in General
 
 ○ Pros
 
