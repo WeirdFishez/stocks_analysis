@@ -1,6 +1,6 @@
 # stocks_analysis
 
-Goal
+Goal/n
 	For this assignment I was tasked with refactoring a VBA script with the goal of improving it's run time by simplifying the code. This task was a response to the customers intent to expand the amount of data processed by the macro. The original VBA script needed to re-loop through all of the data multiple time in order to process the output, which would have slowed down the runtime of the code as the amount of data increased.
 
 Solution
