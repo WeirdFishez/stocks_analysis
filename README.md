@@ -17,7 +17,7 @@ Summary
 			Cost of Resources: Although streamlining is normally a good thing, the project owner need to first weigh the potential gain vs the resources cost to refactor said code. If the person refactoring the code did not write the initial code, the resources spent on paying them to read, learn, and edit each line of code might ultimately outweigh the milliseconds saved on each macro run.
 			Potential Introduction of Errors: The project owner must also weigh the potential cost of unforeseen bugs introduced with the new code. If the code complex and there are high stakes riding on the code runs successfully every single time, then the project owner must again weight the cost of millisecond gained vs risk of downtime.
 		
-	Pros and Cons of Our Refactored Code
+Pros and Cons of Our Refactored Code
 		○ Advantages
 			As previously mentioned, speed and the ability to process larger and larger datasets was the main driver for refactoring. When testing the refactored code, we saw a significant improvement in the run times. The 2017 data saw a 24% increase in runtime speed while the 2018 data saw a whopping 74% increase.\n
 		○ Disadvantages
