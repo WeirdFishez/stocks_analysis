@@ -15,7 +15,7 @@ In the end, our refactored code saw a significant increase in the scripts runtim
 
 ## **Summary**
 
-## **Pros and Cons of Refactoring Code in General**
+### **Pros and Cons of Refactoring Code in General**
 
 ○ Pros
 
