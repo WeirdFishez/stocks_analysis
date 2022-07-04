@@ -17,11 +17,11 @@ In the end, our refactored code saw a significant increase in the scripts runtim
 
 ### **Pros and Cons of Refactoring Code in General**
 
-○ Pros
+### ○ Pros
 
 The main goal of this assignment was to attempt to increase the speed at which the VBA can run. VBA overall is a good gateway to entry level data analysis, however these entry level macros are normally limited to very light analytic where the dataset is small. As that the size of the dataset increases, bad code can begin to bog down the users system memory. Refactoring is essentially cutting out the inefficiencies and streamlining the code as much as possible.
 
-○ Cons
+### ○ Cons
 
 Cost of Resources: Although streamlining is normally a good thing, the project owner need to first weigh the potential gain vs the resources cost to refactor said code. If the person refactoring the code did not write the initial code, the resources spent on paying them to read, learn, and edit each line of code might ultimately outweigh the milliseconds saved on each macro run.
 
@@ -29,10 +29,10 @@ Potential Introduction of Errors: The project owner must also weigh the potentia
 		
 ## **Pros and Cons of Our Refactored Code**
 
-## **○ Advantages**
+### **○ Advantages**
 As previously mentioned, speed and the ability to process larger and larger datasets was the main driver for refactoring. When testing the refactored code, we saw a significant improvement in the run times. The 2017 data saw a 24% increase in runtime speed while the 2018 data saw a whopping 74% increase.
 
-## **○ Disadvantages**
+### **○ Disadvantages**
 The major disadvantage to our refactored code is that it is still limited to the pre-defined number of stocks tickers added to the array. If the user eventually wanted to broaden their analyses, they would need to individually add the tickers in the VBA coding.
 			
 A second disadvantage in our code is that it uses a referenced based IF Functions to determine if the row it's reading is the first stocked traded in the year vs the last. If the data was scrambled out of order, this IF Function would fail to pull the correct stock prices for our Return calculation.
